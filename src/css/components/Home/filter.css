@@ -1,0 +1,32 @@
+#filter-container {
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+}
+
+#filter-item {
+        width: 20%;  
+        margin-right: 5%;
+}
+
+#search-input {
+        width: 400px;
+        padding: 5px;
+}
+#button-container {
+        display: flex;
+        flex-direction: row;
+ 
+ }
+
+
+#filter-button {
+        width: 100px;
+        margin-right: 20px;
+        /* padding: 5px; */
+
+}
+

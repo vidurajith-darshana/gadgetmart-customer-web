@@ -1,0 +1,124 @@
+.main-container {
+        background: #fff;
+
+        width: 100vw;
+        height: 100vh;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        overflow: hidden;  /* scroll */
+}
+
+#header-Container {
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100vw;
+        background: #fff;
+
+        padding: 0 20px;
+        -webkit-box-shadow: 0px 9px 15px -6px #B0B0B0;
+        box-shadow: 0px 9px 15px -6px #B0B0B0;
+}
+
+#logo-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+}
+
+#logo-text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 5px;
+}
+
+#header-logo {
+        width: 70px;
+        height: 70px;
+}
+
+#header-action-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 200px;
+        justify-content: space-around;
+}
+
+#header-cart-logo {
+        width: 35px;
+        height: 35px;
+}
+
+#header-cart-logo:hover {
+        width: 40px;
+        height: 40px;
+}
+
+#header-profile-logo {
+        width: 33px;
+        height: 33px;
+}
+
+#header-profile-logo:hover {
+        width: 38px;
+        height: 38px;
+}
+
+
+
+#header-cart-badge {
+        position: relative;
+        top: -10px;
+        left: -10px;
+}
+
+#header-logout-logo {
+        width: 30px;
+        height: 30px;
+}
+
+#header-logout-logo:hover {
+        width: 35px;
+        height: 35px;
+}
+
+#middle-section {
+
+        margin-top: 120px;
+        width: 800px;
+}
+
+#head-text {
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        borderbottom-color: #000;
+        padding-bottom: 5px;
+        background: #C3F0D7;
+        margin-bottom: 15px;
+}
+
+#input-text {
+        font-size: 15px;
+        margin-top: 15px;
+}
+
+#input-component {
+        width: 800px;
+}
+
+#button-component {
+        margin-top: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
+}
+
+
+

@@ -1,0 +1,10 @@
+#cart-container {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+
+        padding-left: 10vw;
+        padding-right: 10vw;
+
+        /* background: rgb(80, 35, 35); */
+}
